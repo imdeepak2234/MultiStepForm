@@ -24,7 +24,7 @@ const Page6 = ({ setIsButtonVisible }) => {
   return (
     <div className=" py-6 mb-2 md:mt-20 md:mb-20 ">
       <div
-        className=" p-4 mt-5 mb-8 mx-auto text-center w-20 h-20 border-4 border-yellow-500 rounded-full animate-spin"
+        className=" p-4 mt-5 mb-8 mx-auto text-center w-20 h-20 border-4 border-yellow-500 rounded-full animate-spin "
         style={{
           transform: `rotate(${(rotation * 360) / 45}deg)`, // Rotate the wheel based on the current rotation value
         }}

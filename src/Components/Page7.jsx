@@ -21,7 +21,7 @@ const Page7 = ({ setIsButtonVisible }) => {
         <div className="flex flex-col sm:flex-row justify-between items-center space-y-7 sm:space-y-0 sm:space-x-8">
           <div
             onClick={() => handleClick(1)}
-            className={`flex-1 border-2 border-grey-600 hover:border-slate-300 p-4
+            className={`flex-1 border-2 border-grey-600  p-4
           ${
             isSelected === 1
               ? " border-2 border-yellow-300"
@@ -49,7 +49,7 @@ const Page7 = ({ setIsButtonVisible }) => {
 
           <div
             onClick={() => handleClick(2)}
-            className={`flex-1 border-2 border-grey-600 hover:border-slate-300 p-4
+            className={`flex-1 border-2 border-grey-600  p-4
           ${
             isSelected === 2
               ? " border-2 border-yellow-300"

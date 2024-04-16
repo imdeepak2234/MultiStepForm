@@ -20,7 +20,7 @@ const Page2 = ({ setIsButtonVisible }) => {
 
         <div
           onClick={() => handleClick(1)}
-          className={`border-2 border-grey-600 hover:border-slate-300 mx-auto flex items-center space-x-4 cursor-pointer mt-10
+          className={`border-2 border-grey-600  mx-auto flex items-center space-x-4 cursor-pointer mt-10
           ${
             isSelected === 1
               ? " border-2 border-yellow-300"
@@ -45,7 +45,7 @@ const Page2 = ({ setIsButtonVisible }) => {
 
         <div
           onClick={() => handleClick(2)}
-          className={`border-2 border-grey-600 hover:border-slate-300 mx-auto flex items-center space-x-4 cursor-pointer mt-2
+          className={`border-2 border-grey-600  mx-auto flex items-center space-x-4 cursor-pointer mt-2
           ${
             isSelected === 2
               ? " border-2 border-yellow-300"
@@ -70,7 +70,7 @@ const Page2 = ({ setIsButtonVisible }) => {
 
         <div
           onClick={() => handleClick(3)}
-          className={`border-2 border-grey-600 hover:border-slate-300 mx-auto flex items-center space-x-4 cursor-pointer mt-2
+          className={`border-2 border-grey-600  mx-auto flex items-center space-x-4 cursor-pointer mt-2
           ${
             isSelected === 3
               ? " border-2 border-yellow-300"
@@ -95,7 +95,7 @@ const Page2 = ({ setIsButtonVisible }) => {
 
         <div
           onClick={() => handleClick(4)}
-          className={`border-2 border-grey-600 hover:border-slate-300 mx-auto flex items-center space-x-4 cursor-pointer mt-2
+          className={`border-2 border-grey-600  mx-auto flex items-center space-x-4 cursor-pointer mt-2
           ${
             isSelected === 4
               ? " border-2 border-yellow-300"
@@ -119,7 +119,7 @@ const Page2 = ({ setIsButtonVisible }) => {
         </div>
         <div
           onClick={() => handleClick(5)}
-          className={`border-2 border-grey-600 hover:border-slate-300 mx-auto flex items-center space-x-4 cursor-pointer mt-2
+          className={`border-2 border-grey-600  mx-auto flex items-center space-x-4 cursor-pointer mt-2
           ${
             isSelected === 5
               ? " border-2 border-yellow-300"
